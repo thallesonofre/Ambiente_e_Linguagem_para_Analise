@@ -17,7 +17,12 @@ https://posit.co/download/rstudio-desktop/
 
 ----------------------------
 
-Pronto você está apto a acomphar as aulas.
+Pronto você está apto a usar o R.
+Agora acesse a playlist do canal no YTB para acompanhar as aulas:
+
+https://www.youtube.com/playlist?list=PLa4NnyRC9A64A2TLEHgyP6MxYhD_uIvCN
+ 
+
 
 
 Thalles Onofre
