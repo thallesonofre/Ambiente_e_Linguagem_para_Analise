@@ -1,0 +1,23 @@
+Orientação de Instalação para Windows:
+
+* Primeiro, faça o download e logo em seguida a instalação do "Link 01 Download do R";
+
+01 - R para Win
+
+https://cran.r-project.org/bin/windows/base/
+
+----------------------------
+
+* Depois, faça o download e logo em seguida a instalação do "Link 02 Download do RStudio".
+
+
+02 - RStudio
+
+https://posit.co/download/rstudio-desktop/
+
+----------------------------
+
+Pronto você está apto a acomphar as aulas.
+
+
+Thalles Onofre
