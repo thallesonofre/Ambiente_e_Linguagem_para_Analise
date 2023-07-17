@@ -1,0 +1,23 @@
+## AULA02 ##
+
+## Site do WIKIPEDIA ##
+
+https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films#Superlatives
+
+--------------------------
+
+## Script AULA 02 ##
+
+library(rvest)
+library(quantmod)
+library(dplyr)
+
+
+w_site <- ">>Site do Scraping<<"
+
+t_oscar <- read_html(w_site) %>%
+  html_node( xpath = '>>xpath do site<<') %>%
+  html_table() %>%
+  select(title = Film, Year)
+
+---------------------------
