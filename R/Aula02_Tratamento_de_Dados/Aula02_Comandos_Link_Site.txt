@@ -21,3 +21,9 @@ t_oscar <- read_html(w_site) %>%
   select(title = Film, Year)
 
 ---------------------------
+
+## Exportar a planilha pronta ##
+
+write.csv2(t_oscar, "premios_oscar.csv", sep = ';')
+
+---------------------------
