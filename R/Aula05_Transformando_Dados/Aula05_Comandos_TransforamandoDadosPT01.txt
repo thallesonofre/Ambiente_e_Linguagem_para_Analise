@@ -1,0 +1,73 @@
+# Instalar packages tidyverse
+
+# No console install.packages("tidyverse")
+
+# Instalar library
+
+library(tidyverse)
+
+
+
+# Conjunto de Dados
+
+
+data("starwars")
+starwars
+?starwars
+
+
+
+
+# Usando o pipe %>% and den
+
+
+starwars %>%
+  select(name)
+
+
+
+# Seleção de colunas intercaladas
+
+
+starwars %>%
+  select(name, height, mass)
+
+
+
+# Seleção de colunas em sequência 
+
+
+starwars %>%
+  select(name : hair_color)
+
+
+
+# Excluir colunas
+
+
+starwars %>%
+  select(- films, -vehicles, -starships)
+
+
+
+# Filtrar colunas que começam com:
+
+
+starwars %>%
+  select(starts_with("h"))
+
+
+
+# Filtrar colunas que terminam com:
+
+
+starwars %>%
+  select(ends_with("color"))
+
+
+
+# Filtar colunas que contenham determinado termo/texto
+
+
+starwars %>%
+  select(contains("color"))
