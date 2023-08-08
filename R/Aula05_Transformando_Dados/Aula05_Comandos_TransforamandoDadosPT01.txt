@@ -10,8 +10,8 @@ library(tidyverse)
 
 # Conjunto de Dados
 
-
 data("starwars")
+
 starwars
 ?starwars
 
